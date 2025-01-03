@@ -12,7 +12,9 @@ left join Weather previous
 # CTE approach
 /*
 rank the rows by date
+
 */
+
 with ranked_records as (
     select
         id
