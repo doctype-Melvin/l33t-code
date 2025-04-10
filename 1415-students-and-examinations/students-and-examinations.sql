@@ -1,32 +1,20 @@
--- Write your PostgreSQL query statement below
+# Write your MySQL query statement below
+
 /*
-select 
-st.student_id
-,ex.subject_name
-,st.student_name
-from Examinations ex
-left join Students st
-    on st.student_id = ex.student_id
-order by student_id
-;
+select s.student_id, s.student_name, e.subject_name
+from Students s
+left join Examinations e
+on s.student_id = e.student_id
+left join Subjects c
+on e.subject_name = c.subject_name;
 */
 
-select
-st.student_id
-,st.student_name
-,su.subject_name
-,Count(ex.subject_name) as attended_exams
-from Students st
-cross join Subjects su
-left join Examinations ex
-    on ex.student_id = st.student_id
-    and ex.subject_name = su.subject_name
-group by 
-st.student_id
-,st.student_name
-,su.subject_name
-order by 
-st.student_id 
-,su.subject_name
+select s.student_id, s.student_name, c.subject_name, count(e.student_id) as attended_exams
+from Students s
+cross join Subjects c
+left join Examinations e
+on s.student_id = e.student_id
+and e.subject_name = c.subject_name
+group by s.student_id, s.student_name, c.subject_name
+order by s.student_id, c.subject_name;
 
-; 
