@@ -1,10 +1,7 @@
--- Write your PostgreSQL query statement below
-select
-emp.name,
-bon.bonus
-from Employee emp
-left join Bonus bon
-on emp.empId = bon.empId
-where bon.bonus < 1000
-or bon.bonus is null
-; 
+# Write your MySQL query statement below
+select e.name, b.bonus
+from Employee e
+left join Bonus b
+on e.empId = b.empId
+where b.bonus is null
+or b.bonus < 1000;
