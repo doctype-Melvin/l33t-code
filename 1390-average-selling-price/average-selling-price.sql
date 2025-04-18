@@ -1,5 +1,5 @@
 # Write your MySQL query statement below
-/*
+
 select p.product_id, 
 round(
     ifnull(sum(p.price*s.units)/sum(s.units), 0)
@@ -7,10 +7,10 @@ round(
 from Prices p
 left join UnitsSold s
 on p.product_id = s.product_id
-where s.purchase_date >= p.start_date
-and s.purchase_date <= p.end_date
+and s.purchase_date between p.start_date and p.end_date
 group by p.product_id;
-*/
+
+/*
 SELECT 
     p.product_id,
     ROUND(
@@ -21,3 +21,4 @@ LEFT JOIN UnitsSold u
   ON p.product_id = u.product_id
  AND u.purchase_date BETWEEN p.start_date AND p.end_date
 GROUP BY p.product_id;
+*/
