@@ -7,10 +7,10 @@ the Id colum autoincrements
 
 with look_ahead as (
     select 
-        l.num
+        num
         , lead(num, 1) over() num1
         , lead(num, 2) over() num2
-    from Logs l
+    from Logs
 )
 
 select 
