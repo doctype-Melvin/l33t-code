@@ -6,6 +6,4 @@ select a.sell_date
 , count(distinct a.product) as num_sold
 , group_concat(distinct a.product) as products
 from Activities a
-left join Activities aa
-on a.sell_date = aa.sell_date
 group by a.sell_date
