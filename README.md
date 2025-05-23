@@ -2,7 +2,7 @@
 In this repository I save all my solutions
 to leetcode challenges
 As of April 2025 I am going through:
-* SQL50  
+* SQL50  (finished on May 23 2025)
 * 30 Days of JavaScript
 
 ## Why am I doing this?
