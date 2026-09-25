@@ -21,4 +21,5 @@ Python skills for the remainder of the year (2025).
 | ------- |
 | [0176-second-highest-salary](https://github.com/doctype-Melvin/l33t-code/tree/master/0176-second-highest-salary) |
 | [0184-department-highest-salary](https://github.com/doctype-Melvin/l33t-code/tree/master/0184-department-highest-salary) |
+| [1268-market-analysis-i](https://github.com/doctype-Melvin/l33t-code/tree/master/1268-market-analysis-i) |
 <!---LeetCode Topics End-->
