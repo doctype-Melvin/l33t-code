@@ -13,3 +13,11 @@ To get back into JS and improve my problem solving skills,
 I decided to work on SQL and JS problems in parallel. Given that
 I find data analysis quite engaging, there are plans to aquire
 Python skills for the remainder of the year (2025). 
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Database
+|  |
+| ------- |
+| [0184-department-highest-salary](https://github.com/doctype-Melvin/l33t-code/tree/master/0184-department-highest-salary) |
+<!---LeetCode Topics End-->
