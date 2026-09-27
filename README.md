@@ -23,4 +23,5 @@ Python skills for the remainder of the year (2025).
 | [0184-department-highest-salary](https://github.com/doctype-Melvin/l33t-code/tree/master/0184-department-highest-salary) |
 | [0608-tree-node](https://github.com/doctype-Melvin/l33t-code/tree/master/0608-tree-node) |
 | [1268-market-analysis-i](https://github.com/doctype-Melvin/l33t-code/tree/master/1268-market-analysis-i) |
+| [1523-capital-gainloss](https://github.com/doctype-Melvin/l33t-code/tree/master/1523-capital-gainloss) |
 <!---LeetCode Topics End-->
