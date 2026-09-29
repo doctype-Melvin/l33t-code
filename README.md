@@ -24,4 +24,5 @@ Python skills for the remainder of the year (2025).
 | [0608-tree-node](https://github.com/doctype-Melvin/l33t-code/tree/master/0608-tree-node) |
 | [1268-market-analysis-i](https://github.com/doctype-Melvin/l33t-code/tree/master/1268-market-analysis-i) |
 | [1523-capital-gainloss](https://github.com/doctype-Melvin/l33t-code/tree/master/1523-capital-gainloss) |
+| [3767-find-students-who-improved](https://github.com/doctype-Melvin/l33t-code/tree/master/3767-find-students-who-improved) |
 <!---LeetCode Topics End-->
